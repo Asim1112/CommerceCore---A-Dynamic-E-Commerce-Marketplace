@@ -37,7 +37,7 @@ const Header = () => {
           <li><Link href="/Women" className="hover:text-blue-500">Women</Link></li>
           <li><Link href="#" className="hover:text-blue-500">Kids</Link></li>
           <li><Link href="#" className="hover:text-blue-500">Sale</Link></li>
-          <li><Link href="/APIdata" className="hover:text-blue-500">SNKRS</Link></li>
+          <li><Link href="/APIdata" className="hover:text-blue-500">API-Data from Sanity</Link></li>
         </ul>
 
         {/* Right-side icons & Search */}

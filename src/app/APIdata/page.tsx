@@ -51,7 +51,7 @@ const APIdata = () => {
       <Header />
       <div className="max-w-6xl mx-auto px-4 py-8">
         <h1 className="text-3xl my-10 flex justify-center font-bold underline">
-          Data From API Sanity
+        API-Data from Sanity
         </h1>
 
         {/* ✅ Show Error Message if API Fails */}
