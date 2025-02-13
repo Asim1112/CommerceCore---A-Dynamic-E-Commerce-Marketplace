@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from "@/components/ui/button";
+import { FaChevronLeft , FaChevronRight } from "react-icons/fa6";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -12,15 +13,15 @@ const Hero = () => {
           <Header />
 
       <div className="flex justify-center">
-    <div className="w-[1440px]">
+    <div className="max-w-[1440px] mx-auto md:px-4 flex flex-col">
 
 
 {/* HERO SECTION 1 */}
 
-<div className="w-[1440px] h-[58px] bg-gray-100">
-<div className="flex flex-col items-center">
-  <p className="font-Helvetica Neue text-gray-900 font-semibold text-[15px] leading-[16px] mt-2">Hello Nike App</p>
-  <p className="text-[11px] leading-[24px] text-gray-900 font-normal">Download the app to access everything Nike.
+<div className="max-w-[1440px] w-full mx-auto md:px-4 bg-gray-100">
+<div className="flex flex-col items-center justify-center sm:items-center sm:flex-col md:items-center md:flex-col">
+  <p className="font-Helvetica Neue text-gray-900 font-semibold text-[15px] text-xs leading-[16px] mt-2 sm:text-sm md:text-base lg:text-base">Hello Nike App</p>
+  <p className="text-[8px] leading-tight break-words md:leading-[24px] text-gray-900 font-normal sm:text-[9px] md:text-[11px] lg:text-[13px]">Download the app to access everything Nike.
     <span className="underline text-gray-900 font-bold pl-1"><a href="#" className="text-black
       hover:text-blue-500 transition-colors duration-300">Get Your Great</a></span></p>
 </div>
@@ -28,26 +29,27 @@ const Hero = () => {
 </div>
 
 
-<div className="flex justify-center items-center">
+<div className="flex justify-center items-center w-full">
     <Image 
         src="/shoe-pic1.svg"
         alt="content1-image"
         width={1344}
         height={700}
+        className="w-full max-w-[1344px] h-auto"
     />
         
 </div>
         
   <div className="flex justify-center">
-  <div className="w-[1008px] h-[229px] my-16">
+  <div className="max-w-[1008px] w-full my-10 sm:my-16">
     <div className="flex justify-center">
-      <p className="font-[Helvetica Neue] text-[15px] leading-[24px] my-1 font-semibold">First Look</p>
+      <p className="font-[Helvetica Neue] text-[11px] leading-tight my-1 font-semibold lg:leading-[24px] md:leading-[20px] sm:text-[13px] md:text-[15px] lg:text-[17px]">First Look</p>
     </div>
-    <div className="flex justify-center">
-      <p className="font-[Helvetica Neue] text-[56px] font-semibold leading-[60px]">NIKE AIR MAX PULSE</p>
+    <div className="flex justify-center text-center">
+      <p className="font-[Helvetica Neue] text-[22px] font-semibold leading-[22px] lg:leading-[60px] md:leading-[46px] sm:leading-[36px] sm:text-[32px] md:text-[44px] lg:text-[56px]">NIKE AIR MAX PULSE</p>
     </div>
-    <div className="flex flex-col justify-center items-center font-[Helvetica Neue] font-normal text-[15px]
-     leading-[24px] py-4">
+    <div className="w-full flex flex-col text-[9px] py-2 lg:text-[15px] md:text-[13px] sm:text-[11px] justify-center items-center font-[Helvetica Neue] font-normal
+     lg:leading-[24px] md:leading-[20px] md:py-3 sm:py-3 lg:py-4">
   <p className="flex items-center">
     Extreme comfort. Hyper durable. Max volume. Introducing the Air Max pulse
   </p>
@@ -55,10 +57,10 @@ const Hero = () => {
     — designed to push you past your limits and help you go to the max.
   </p>
 </div>
-                    <div className="flex justify-center gap-2">
-                    <Button className="rounded-full">Notify Me</Button>
-                    <Button className="rounded-full">Shop Air Max</Button>
-                    </div>
+          <div className="flex justify-center gap-1 sm:flex-row sm:gap-2 md:gap-3">
+          <Button className="rounded-full w-auto  sm:w-auto">Notify Me</Button>
+          <Button className="rounded-full w-auto sm:w-auto">Shop Air Max</Button>
+          </div>
   </div>
   </div>
 
@@ -68,7 +70,7 @@ const Hero = () => {
 
 
 
-<div className='w-[1440px] h-[52px] flex justify-between items-center px-10 mb-2'>
+<div className='max-w-[1440px] w-full h-[52px] flex justify-between flex-wrap px-4 items-center md:px-10 md:flex-nowrap mb-2'>
             
 <div className='font-[Helvetica Neue] text-[22px] leading-[28px] font-semibold'>
         <h3>Best of Air Max</h3>
@@ -77,22 +79,23 @@ const Hero = () => {
   <div className='flex gap-3'>
     <p className='pt-3 pr-2 leading-[24px] text-[15px] font-[Helvetica Neue] font-semibold'>Shop</p>
     <button className="w-[48px] h-[48px] bg-gray-100 rounded-[24px] flex items-center justify-center">
-    <Image src="/arrow-right.svg" alt="Left Arrow" width={6.97} height={13.93} className='w-[9.97px] h-[18.93px]'/>
+    <FaChevronLeft color='gray' width={6.97} height={13.93}/>
+   
     </button>
     <button className="w-[48px] h-[48px] bg-gray-200 rounded-[24px] flex items-center justify-center">
-    <Image src="/arrow-left.svg" alt="Right Arrow" width={6.97} height={13.93} className='w-[9.97px] h-[18.93px]' />
+    <FaChevronRight width={6.97} height={13.93}/>
     </button>
   </div>
 </div>
 
 
-  <div className="flex justify-center gap-4">
   
   
   
   {/* HERO SECTION 3 */}
   
 
+<div className="flex justify-center gap-4">
 <div className='space-y-6'>
   <Image src="/box-shoe1.svg" alt="Nike Air Max Pulse" width={441.36} height={510.36}/>
       <div>
