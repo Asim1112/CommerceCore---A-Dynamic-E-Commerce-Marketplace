@@ -13,14 +13,14 @@ const Hero = () => {
           <Header />
 
       <div className="flex justify-center">
-    <div className="max-w-[1440px] mx-auto md:px-4 flex flex-col">
+    <div className="max-w-[1440px] w-full px-4 flex flex-col">
 
 
 {/* HERO SECTION 1 */}
 
-<div className="max-w-[1440px] w-full mx-auto md:px-4 bg-gray-100">
-<div className="flex flex-col items-center justify-center sm:items-center sm:flex-col md:items-center md:flex-col">
-  <p className="font-Helvetica Neue text-gray-900 font-semibold text-[15px] text-xs leading-[16px] mt-2 sm:text-sm md:text-base lg:text-base">Hello Nike App</p>
+<div className="w-full mx-auto px-4 bg-gray-100">
+<div className="flex flex-col items-center justify-center">
+<p className="font-Helvetica Neue text-gray-900 font-semibold text-xs md:leading-[12px] lg:leading-[16px] mt-2 sm:text-sm md:text-base lg:text-base">Hello Nike App</p>
   <p className="text-[8px] leading-tight break-words md:leading-[24px] text-gray-900 font-normal sm:text-[9px] md:text-[11px] lg:text-[13px]">Download the app to access everything Nike.
     <span className="underline text-gray-900 font-bold pl-1"><a href="#" className="text-black
       hover:text-blue-500 transition-colors duration-300">Get Your Great</a></span></p>
@@ -29,13 +29,13 @@ const Hero = () => {
 </div>
 
 
-<div className="flex justify-center items-center w-full">
+<div className="flex justify-center items-center w-full px-4">
     <Image 
         src="/shoe-pic1.svg"
         alt="content1-image"
         width={1344}
         height={700}
-        className="w-full max-w-[1344px] h-auto"
+        className="w-full max-w-[1344px] h-auto object-cover"
     />
         
 </div>
@@ -58,8 +58,8 @@ const Hero = () => {
   </p>
 </div>
           <div className="flex justify-center gap-1 sm:flex-row sm:gap-2 md:gap-3">
-          <Button className="rounded-full w-auto  sm:w-auto">Notify Me</Button>
-          <Button className="rounded-full w-auto sm:w-auto">Shop Air Max</Button>
+          <Button className="rounded-full sm:w-auto">Notify Me</Button>
+          <Button className="rounded-full sm:w-auto">Shop Air Max</Button>
           </div>
   </div>
   </div>
@@ -70,20 +70,20 @@ const Hero = () => {
 
 
 
-<div className='max-w-[1440px] w-full h-[52px] flex justify-between flex-wrap px-4 items-center md:px-10 md:flex-nowrap mb-2'>
+<div className='max-w-[1440px] w-full h-auto flex justify-between flex-wrap px-1 items-center md:px-10 md:flex-nowrap mb-2'>
             
-<div className='font-[Helvetica Neue] text-[22px] leading-[28px] font-semibold'>
+<div className='font-[Helvetica Neue] text-[15px] sm:text-[20px] md:text-[22px] leading-[28px] font-semibold'>
         <h3>Best of Air Max</h3>
 </div>
         
-  <div className='flex gap-3'>
-    <p className='pt-3 pr-2 leading-[24px] text-[15px] font-[Helvetica Neue] font-semibold'>Shop</p>
-    <button className="w-[48px] h-[48px] bg-gray-100 rounded-[24px] flex items-center justify-center">
-    <FaChevronLeft color='gray' width={6.97} height={13.93}/>
+  <div className='flex gap-1 md:gap-3 mb-3'>
+    <p className='pt-3 pr-2 leading-[24px] text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-[Helvetica Neue] font-semibold'>Shop</p>
+    <button className="w-[36px] h-[36px] md:w-[48px] md:h-[48px] sm:w-[44px] sm:h-[44px] bg-gray-100 rounded-[24px] flex items-center justify-center">
+    <FaChevronLeft color='gray' className='w-[6px] h-[12px] sm:w-[7px] sm:h-[14px] md:w-[8px] md:h-[16px]'/>
    
     </button>
-    <button className="w-[48px] h-[48px] bg-gray-200 rounded-[24px] flex items-center justify-center">
-    <FaChevronRight width={6.97} height={13.93}/>
+    <button className="w-[36px] h-[36px] md:w-[48px] md:h-[48px] sm:w-[44px] sm:h-[44px] bg-gray-100 rounded-[24px] flex items-center justify-center">
+    <FaChevronRight className='w-[6px] h-[12px] sm:w-[7px] sm:h-[14px] md:w-[8px] md:h-[16px]'/>
     </button>
   </div>
 </div>
@@ -95,47 +95,59 @@ const Hero = () => {
   {/* HERO SECTION 3 */}
   
 
-<div className="flex justify-center gap-4">
-<div className='space-y-6'>
-  <Image src="/box-shoe1.svg" alt="Nike Air Max Pulse" width={441.36} height={510.36}/>
+<div className="flex justify-center gap-2 sm:gap-3 md:gap-4">
+<div className='space-y-2 md:space-y-6 sm:space-y-4'>
+  <Image src="/box-shoe1.svg"
+   alt="Nike Air Max Pulse" 
+   width={441.36} 
+   height={510.36}
+   className='w-full max-w-[441.36px] h-auto object-cover'/>
       <div>
               <div className='flex justify-between'>
-      <p className="font-[Helvetica Neue] text-[15px] font-semibold leading-[24px]">Nike Air Max Pulse</p>
-      <p className="font-[Helvetica Neue] text-[15px] font-semibold leading-[24px] pr-5">₹ 13 995</p>
+      <p className="font-[Helvetica Neue] text-[11px] leading-[16px] sm:text-[13px] md:text-[15px] font-semibold md:leading-[24px] sm:leading-[20px]">Nike Air Max Pulse</p>
+      <p className="font-[Helvetica Neue] pr-5 text-[11px] leading-[16px] sm:text-[13px] md:text-[15px] font-semibold md:leading-[24px] sm:leading-[20px]">₹ 13 995</p>
               </div>
-      <p className="font-[Helvetica Neue] text-[15px] font-medium leading-[24px] text-gray-500">
-        Men&apos;s Short-Sleeve</p>
+      <p className="font-[Helvetica Neue] text-[11px] leading-[16px] sm:text-[13px] md:text-[15px] md:leading-[24px] sm:leading-[20px] font-medium text-gray-500">
+        Women&apos;s Shoes</p>
       </div>
 
 </div>
 
   
   
-<div className='space-y-6'>
-  <Image src="/box-shoe2.svg" alt="Nike Air Max Pulse" width={441.36} height={510.36} />
+<div className='space-y-2 md:space-y-6 sm:space-y-4'>
+  <Image src="/box-shoe2.svg" 
+  alt="Nike Air Max Pulse" 
+  width={441.36} 
+  height={510.36}
+  className='w-full max-w-[441.36px] h-auto object-cover'/>
 
   <div>
               <div className='flex justify-between'>
-      <p className="font-[Helvetica Neue] text-[15px] font-semibold leading-[24px]">Nike Air Max Pulse</p>
-      <p className="font-[Helvetica Neue] text-[15px] font-semibold leading-[24px] pr-5">₹ 13 995</p>
+      <p className="font-[Helvetica Neue] text-[11px] leading-[16px] sm:text-[13px] md:text-[15px] font-semibold md:leading-[24px] sm:leading-[20px]">Nike Air Max Pulse</p>
+      <p className="font-[Helvetica Neue] text-[11px] leading-[16px] sm:text-[13px] md:text-[15px] font-semibold md:leading-[24px] sm:leading-[20px] pr-5">₹ 13 995</p>
               </div>
-      <p className="font-[Helvetica Neue] text-[15px] font-medium leading-[24px] text-gray-500">
-        Men&apos;s Short-Sleeve</p>
+      <p className="font-[Helvetica Neue] text-[11px] leading-[16px] sm:text-[13px] md:text-[15px] md:leading-[24px] sm:leading-[20px] font-medium text-gray-500">
+        Men&apos;s Shoes</p>
       </div> 
 </div>
   
 
 
-<div className='space-y-6'>
-  <Image src="/box-shoe3.svg" alt="Nike Air Max Pulse" width={441.36} height={510.36} />
+<div className='space-y-2 md:space-y-6 sm:space-y-4'>
+  <Image src="/box-shoe3.svg" 
+  alt="Nike Air Max Pulse" 
+  width={441.36} 
+  height={510.36}
+  className='w-full max-w-[441.36px] h-auto object-cover'/>
 
   <div>
               <div className='flex justify-between'>
-      <p className="font-[Helvetica Neue] text-[15px] font-semibold leading-[24px]">Nike Air Max 97 SE</p>
-      <p className="font-[Helvetica Neue] text-[15px] font-semibold leading-[24px] pr-5">₹ 16 995</p>
+      <p className="font-[Helvetica Neue] text-[11px] leading-[16px] sm:text-[13px] md:text-[15px] font-semibold md:leading-[24px] sm:leading-[20px]">Nike Air Max 97 SE</p>
+      <p className="font-[Helvetica Neue] text-[11px] leading-[16px] sm:text-[13px] md:text-[15px] font-semibold md:leading-[24px] sm:leading-[20px]  pr-5">₹ 16 995</p>
               </div>
-      <p className="font-[Helvetica Neue] text-[15px] font-medium leading-[24px] text-gray-500">
-        Men&apos;s Short-Sleeve</p>
+      <p className="font-[Helvetica Neue] text-[11px] leading-[16px] sm:text-[13px] md:text-[15px] md:leading-[24px] sm:leading-[20px] font-medium text-gray-500">
+      Men&apos;s Shoes</p>
       </div>
 </div>
 </div>
@@ -266,7 +278,7 @@ const Hero = () => {
 <div className='flex justify-center mt-10'>
 <div className="top-[1807.36px] mt-20">
 <div className='font-semibold font-[Helvetica Neue] h-[48px] text-[23px] leading-[28px]'>Don&apos;t Miss</div>
-<Image src="/Don't-Miss-Image.png" width={1344} height={977} alt="dont miss image" />
+<Image src="/dont miss.svg" width={1344} height={977} alt="dont miss image" />
 </div>
 </div>
 
