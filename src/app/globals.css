@@ -5,8 +5,39 @@
 @tailwind utilities;
 
 
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeueBlack.otf') format('opentype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeueHeavy.otf') format('opentype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeueMedium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeueLight.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/HelveticaNeueUltraLight') format('opentype');
+  font-weight: 200;
+}
+
 body {
-  font-family: Helvetica, Arial;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 @layer utilities {

@@ -11,7 +11,8 @@ const config: Config = {
   	extend: {
 		fontFamily: {
 			inter: ["Inter", "serif" ],
-			poppins: ["Poppins", "sans-serif"]
+			poppins: ["Poppins", "sans-serif"],
+			helvetica: ['Helvetica Neue', 'sans-serif']
 		},
   		colors: {
   			background: 'hsl(var(--background))',

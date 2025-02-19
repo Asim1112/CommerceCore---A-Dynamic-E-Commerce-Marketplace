@@ -12,7 +12,7 @@ const Header = () => {
       {/* Top Bar */}
       <div className="h-[36px] bg-gray-100 flex justify-between items-center px-6 md:px-12 w-full">
         <Image src="/logo-icon.svg" alt="logo" width={24} height={24} />
-        <ul className="flex md:flex gap-2 text-xs font-medium">
+        <ul className="flex md:flex gap-2 text-xs font-light">
           <li><Link href="/FindAStore" className="hover:text-blue-500">Find a Store</Link></li>
           <li>|</li>
           <li><Link href="/Help" className="hover:text-blue-500">Help</Link></li>
@@ -31,7 +31,7 @@ const Header = () => {
         </Link>
 
         {/* Navigation for larger screens */}
-        <ul className="hidden sm:flex sm:gap-2 sm:text-xs md:flex md:text-base md:gap-6 mx-auto font-medium">
+        <ul className="hidden sm:flex sm:gap-2 sm:text-xs md:flex md:text-base md:gap-6 mx-auto font-light">
           <li><Link href="/NewFeatured" className="hover:text-blue-500">New & Featured</Link></li>
           <li><Link href="/Men" className="hover:text-blue-500">Men</Link></li>
           <li><Link href="/Women" className="hover:text-blue-500">Women</Link></li>
@@ -46,7 +46,7 @@ const Header = () => {
             <input
               type="text"
               placeholder="Search"
-              className="w-[80px] h-[30px] text-xs sm:text-base sm:w-[130px] sm:h-[40px] md:w-[180px] md:h-[40px] rounded-full bg-gray-100 pl-10"
+              className="w-[80px] font-light h-[30px] text-xs sm:text-base sm:w-[130px] sm:h-[40px] md:w-[180px] md:h-[40px] rounded-full bg-gray-100 pl-10"
             />
             <Image src="/search-mirror-icon.svg" alt="search" width={20} height={20} className="absolute left-3 top-1/2 transform -translate-y-1/2" />
           </div>
