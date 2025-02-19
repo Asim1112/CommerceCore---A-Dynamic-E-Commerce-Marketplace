@@ -196,7 +196,7 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row justify-center md:justify-evenly items-center mt-8 gap-6">
         {/* Shop Men's */}
         <div className="flex items-center gap-4">
-          <p className="text-[15px] font-[400]">Shop Men's</p>
+          <p className="text-[15px] font-[400]">Shop Men&apos;s</p>
           <div className="flex gap-2">
             <button className="w-[36px] h-[36px] md:w-[48px] md:h-[48px] sm:w-[44px] sm:h-[44px] bg-gray-100 rounded-full flex items-center justify-center">
               <FaChevronLeft color='silver' className='w-[10] h-[10]'/>
@@ -209,7 +209,7 @@ const Hero = () => {
 
         {/* Shop Women's */}
         <div className="flex items-center gap-4">
-          <p className="text-[15px] font-[400]">Shop Women's</p>
+          <p className="text-[15px] font-[400]">Shop Women&apos;s</p>
           <div className="flex gap-2">
             <button className="w-[36px] h-[36px] md:w-[48px] md:h-[48px] sm:w-[44px] sm:h-[44px] bg-gray-100 rounded-full flex items-center justify-center">
               <FaChevronLeft color='silver' className='w-[10] h-[20]'/>
@@ -240,7 +240,7 @@ const Hero = () => {
               <p className="font-[Helvetica Neue] lg:text-[15px] md:text-[14px] sm:text-[13px] text-[10px] font-medium lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px]">Nike Dri-FIT Challenger</p>
               <span className="font-[Helvetica Neue] lg:text-[15px] md:text-[14px] sm:text-[13px] text-[10px] font-medium lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px]">₹ 2,495</span>
             </div>
-            <p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Men's 18cm (approx.) 2-in-1 Versatile Shorts</p>
+            <p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Men&apos;s 18cm (approx.) 2-in-1 Versatile Shorts</p>
           </div>
         </div>
         <div>
@@ -250,7 +250,7 @@ const Hero = () => {
               <p className="font-[Helvetica Neue] lg:text-[15px] md:text-[14px] sm:text-[13px] text-[10px] font-medium lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px]">Nike Dri-FIT ADV Run Division</p>
               <span className="font-[Helvetica Neue] lg:text-[15px] md:text-[14px] sm:text-[13px] text-[10px] font-medium lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px]">₹ 5,295</span>
             </div>
-            <p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Women's Long-Sleeve</p><p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Running Top</p>
+            <p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Women&apos;s Long-Sleeve</p><p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Running Top</p>
           </div>
         </div>
         <div>
@@ -260,7 +260,7 @@ const Hero = () => {
               <p className="font-[Helvetica Neue] lg:text-[15px] md:text-[14px] sm:text-[13px] text-[10px] font-medium lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px]">Nike Fast</p>
               <span className="font-[Helvetica Neue] lg:text-[15px] md:text-[14px] sm:text-[13px] text-[10px] font-medium lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px]">₹ 3,795</span>
             </div>
-            <p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Women's Mid-Rise 7/8 Running Leggings with Pockets</p>
+            <p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Women&apos;ss Mid-Rise 7/8 Running Leggings with Pockets</p>
           </div>
         </div>
       </div>
@@ -314,7 +314,7 @@ const Hero = () => {
   <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 mt-6">
     {/* <!-- Men's Section --> */}
     <div className="relative flex flex-col items-center">
-      <img src="/Essential-3.svg" className="w-full max-w-[440px] h-auto" alt="Essential Image-1" />
+      <Image src="/Essential-3.svg" className="w-full max-w-[440px] h-auto" alt="Essential Image-1" />
       <button className="absolute bottom-8 md:bottom-10 md:left-12 bg-white md:px-4 md:py-2 px-3 py-2 md:text-[14px] sm:text-[12px] text-[10px] font-[200] rounded-full shadow-lg">
         Men's
       </button>
@@ -322,7 +322,7 @@ const Hero = () => {
 
     {/* <!-- Women's Section --> */}
     <div className="relative flex flex-col items-center">
-      <img src="/Essential-1.svg" className="w-full max-w-[440px] h-auto" alt="Essential Image-2" />
+      <Image src="/Essential-1.svg" className="w-full max-w-[440px] h-auto" alt="Essential Image-2" />
       <button className="absolute bottom-8 md:bottom-10 md:left-12 bg-white font-[200] md:px-4 md:py-2 px-3 py-2 md:text-[14px] sm:text-[12px] text-[10px] rounded-full shadow-lg">
         Women's
       </button>
@@ -330,7 +330,7 @@ const Hero = () => {
 
     {/* <!-- Kids' Section --> */}
     <div className="relative flex flex-col items-center">
-      <img src="/Essential-2.svg" className="w-full max-w-[440px] h-auto" alt="Essential Image-3" />
+      <Image src="/Essential-2.svg" className="w-full max-w-[440px] h-auto" alt="Essential Image-3" />
       <button className="absolute bottom-8 md:bottom-10 md:left-12 bg-white text-black font-[200] rounded-full md:px-4 md:py-2 px-3 py-2 md:text-[14px] sm:text-[12px] text-[10px] shadow-lg">
         Kids'
       </button>
