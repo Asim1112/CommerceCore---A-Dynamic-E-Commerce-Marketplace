@@ -324,7 +324,7 @@ const Hero = () => {
     <div className="relative flex flex-col items-center">
       <Image src="/Essential-1.svg" className="w-full max-w-[440px] h-auto" alt="Essential Image-2" />
       <button className="absolute bottom-8 md:bottom-10 md:left-12 bg-white font-[200] md:px-4 md:py-2 px-3 py-2 md:text-[14px] sm:text-[12px] text-[10px] rounded-full shadow-lg">
-        Women's
+        Women&apos;s
       </button>
     </div>
 
@@ -332,7 +332,7 @@ const Hero = () => {
     <div className="relative flex flex-col items-center">
       <Image src="/Essential-2.svg" className="w-full max-w-[440px] h-auto" alt="Essential Image-3" />
       <button className="absolute bottom-8 md:bottom-10 md:left-12 bg-white text-black font-[200] rounded-full md:px-4 md:py-2 px-3 py-2 md:text-[14px] sm:text-[12px] text-[10px] shadow-lg">
-        Kids'
+        Kids&apos;
       </button>
     </div>
   </div>
