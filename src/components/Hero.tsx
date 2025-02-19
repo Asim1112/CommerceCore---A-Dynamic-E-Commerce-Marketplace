@@ -316,7 +316,7 @@ const Hero = () => {
     <div className="relative flex flex-col items-center">
       <Image src="/Essential-3.svg" className="w-full max-w-[440px] h-auto" alt="Essential Image-1" />
       <button className="absolute bottom-8 md:bottom-10 md:left-12 bg-white md:px-4 md:py-2 px-3 py-2 md:text-[14px] sm:text-[12px] text-[10px] font-[200] rounded-full shadow-lg">
-        Men's
+        Men&apos;s
       </button>
     </div>
 
