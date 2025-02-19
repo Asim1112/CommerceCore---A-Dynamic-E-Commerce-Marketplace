@@ -230,7 +230,7 @@ const Hero = () => {
               <p className="font-[Helvetica Neue] lg:text-[15px] md:text-[14px] sm:text-[13px] text-[10px] font-medium lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px]">Nike Dri-FIT ADV TechKnit Ultra</p>
               <span className="font-[Helvetica Neue] lg:text-[15px] md:text-[14px] sm:text-[13px] text-[10px] font-medium lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px]">₹ 3,895</span>
             </div>
-            <p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Men's Short-Sleeve</p><p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Running Top</p>
+            <p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Men&apos;s Short-Sleeve</p><p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Running Top</p>
           </div>
         </div>
         <div>
@@ -260,7 +260,7 @@ const Hero = () => {
               <p className="font-[Helvetica Neue] lg:text-[15px] md:text-[14px] sm:text-[13px] text-[10px] font-medium lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px]">Nike Fast</p>
               <span className="font-[Helvetica Neue] lg:text-[15px] md:text-[14px] sm:text-[13px] text-[10px] font-medium lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px]">₹ 3,795</span>
             </div>
-            <p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Women&apos;ss Mid-Rise 7/8 Running Leggings with Pockets</p>
+            <p className="font-[Helvetica Neue] lg:text-[16px] md:text-[15px] sm:text-[14px] text-[10px] font-light lg:leading-[24px] md:leading-[20px] sm:leading-[18px] leading-[15px] text-gray-500">Women&apos;s Mid-Rise 7/8 Running Leggings with Pockets</p>
           </div>
         </div>
       </div>
